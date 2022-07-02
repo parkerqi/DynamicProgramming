@@ -151,10 +151,10 @@ public class DynamicPrograming{
      * 1. create an table lenght 9
      *       0  1  2  3  4  5  6  7  8
      *      [x, x, x, x, x, x, x, x, x]
-     * 2. we know that number 0, 2, 3 can be summed throught the given number, thus
+     * 2. we know that number 0, 2, 3 can be summed through the given number, thus
      *       0  1  2  3  4  5  6  7  8 
      *     [[], x, 2, 3, x, x, x, x, x]
-     * 3. given that 0, 2, 3 can be summed, we know that 5(3+2), 4(2+2), 6(3+3) can also be summed, thus
+     * 3. given that 0, 2, 3 can be summed, we know that 5=(3+2), 4=(2+2), 6=(3+3) can also be summed, thus
      *       0, 1  2  3  4  5  6  7  8
      *     [[], x, 2, 3, 2, 3, 3, x, x]
      *                   2  2  3
